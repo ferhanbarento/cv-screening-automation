@@ -77,13 +77,19 @@ Claude AI is given a custom prompt that instructs it to return a structured JSON
 ## Screenshots
 
 ### UiPath Workflow Canvas
-![Workflow](screenshot-workflow.png)
+![Workflow](screenshot-email_workflow.png)
+![Workflow](Screenshot-dowloadAtt-email.png)
+![Workflow](Screenshot-forLoop-workflow.png)
+![Workflow](Screenshot-Deserialize-workflow.png)
+![Workflow](Screenshot-writeRow.png)
+![Workflow](Screenshot-emailAlert-workflow.png)
+![Workflow](Screenshot-ElseLogMessage.png)
 
 ### Google Sheets Output
-![Google Sheets](screenshot-sheets.png)
-
+![Google Sheets](screenshot-sheets1.png)
+![Google Sheets](Screenshot-sheet2.png)
 ### Orchestrator Job Log
-![Orchestrator](screenshot-orchestrator.png)
+![Orchestrator](Screenshot-logMessage.png)
 
 ### HR Alert Email
 ![Alert Email](screenshot-email.png)
