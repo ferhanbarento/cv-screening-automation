@@ -14,6 +14,8 @@ This automation watches a Gmail inbox for incoming resumes, reads each PDF with 
 
 Email arrives with PDF → UiPath detects it → PDF text extracted → Claude AI reads and scores → Google Sheets row added → Low score triggers HR alert email
 
+![Workflow](screenshot-workflow.png)
+
 ## How It Works
 
 1. **Input:** A candidate emails their resume (PDF) to a dedicated Gmail inbox
@@ -74,7 +76,17 @@ Claude AI is given a custom prompt that instructs it to return a structured JSON
 
 ## Screenshots
 
-*Add screenshots of your workflow, Google Sheets output, and email notifications here*
+### UiPath Workflow Canvas
+![Workflow](screenshot-workflow.png)
+
+### Google Sheets Output
+![Google Sheets](screenshot-sheets.png)
+
+### Orchestrator Job Log
+![Orchestrator](screenshot-orchestrator.png)
+
+### HR Alert Email
+![Alert Email](screenshot-email.png)
 
 ## Author
 
