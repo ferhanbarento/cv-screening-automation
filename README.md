@@ -14,7 +14,7 @@ This automation watches a Gmail inbox for incoming resumes, reads each PDF with 
 
 Email arrives with PDF → UiPath detects it → PDF text extracted → Claude AI reads and scores → Google Sheets row added → Low score triggers HR alert email
 
-![Workflow](screenshot-workflow.png)
+![Workflow](workflow-mermaid-diagram.png)
 
 ## How It Works
 
